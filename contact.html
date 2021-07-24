@@ -42,37 +42,28 @@
             <div class="row d-flex justify-content-between">
                 <div class="col-md-6 offset-md-3">
                     <h4 class="mb-3 text-center">Contact</h4>
-                    <form class="needs-validation" novalidate>
+                    <form class="contace-massage" novalidate>
                         <div class="row g-3">
                         <div class="col-sm-6">
                             <label for="firstName" class="form-label">First name</label>
                             <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
-                            <div class="invalid-feedback">
-                            Valid first name is required.
-                            </div>
                         </div>
+
                         <div class="col-sm-6">
                             <label for="lastName" class="form-label">Last name</label>
                             <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
-                            <div class="invalid-feedback">
-                            Valid last name is required.
-                            </div>
                         </div>
+
                         <div class="col-12">
-                            <label for="username" class="form-label">Message</label>
+                            <label for="Message" class="form-label">Message</label>
                             <div class="input-group has-validation">
-                            <input type="text" class="form-control" id="username" placeholder="Message" required>
-                            <div class="invalid-feedback">
-                                Your username is required.
-                            </div>
+                            <input type="text" class="form-control" id="Message" placeholder="Message" required>
                             </div>
                         </div>
+
                         <div class="col-12 mb-3">
                             <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
                             <input type="email" class="form-control" id="email" placeholder="you@example.com">
-                            <div class="invalid-feedback">
-                            Please enter a valid email address for shipping updates.
-                            </div>
                         </div>
                         <hr class="my-4">
                         <div class="mx-auto">
@@ -99,10 +90,5 @@
         </div>
       </div>
     </footer>
-
-    <script>
-        $(".animation").delay(100).animate({ opacity: 1 }, 700);
-        $(".animation-2").delay(1000).animate({ opacity: 1 }, 700);
-    </script>
   </body>
 </html>
